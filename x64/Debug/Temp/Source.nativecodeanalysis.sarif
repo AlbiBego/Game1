@@ -1,0 +1,73 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\um\\winbase.h(1006). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/User/Desktop/Game1/Source.c"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 15,
+                  "endLine": 19,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WinMain",
+                  "decoratedName": "WinMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31630.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/User/Desktop/Game1/Source.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d40c8d6174f976c34688d5885a26dbd51b0376c5b7612db12ee762c00928f385"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/desktop/game1/main.h"
+          },
+          "hashes": {
+            "sha-256": "ac8b95b5a255e67b1e9e9fc589f4df9ef6c37dfdddf6196be36ec1c6611eaa1a"
+          }
+        }
+      ]
+    }
+  ]
+}
