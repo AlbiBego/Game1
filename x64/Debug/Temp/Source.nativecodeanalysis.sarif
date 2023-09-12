@@ -16,9 +16,9 @@
                   "uri": "file:///C:/Users/User/Desktop/Game1/Source.c"
                 },
                 "region": {
-                  "startLine": 19,
+                  "startLine": 30,
                   "startColumn": 15,
-                  "endLine": 19,
+                  "endLine": 30,
                   "endColumn": 15
                 }
               },
@@ -56,7 +56,7 @@
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "d40c8d6174f976c34688d5885a26dbd51b0376c5b7612db12ee762c00928f385"
+            "sha-256": "c5476b3e74758062e9c20ce20217f74202a2470766f1615a165889a087acf957"
           }
         },
         {
@@ -64,7 +64,7 @@
             "uri": "file:///c:/users/user/desktop/game1/main.h"
           },
           "hashes": {
-            "sha-256": "ac8b95b5a255e67b1e9e9fc589f4df9ef6c37dfdddf6196be36ec1c6611eaa1a"
+            "sha-256": "1a0cb45cbe20c917cf3b8d09e70004d2e8eee3e391c13ba25370e3663ac6e9ff"
           }
         }
       ]
