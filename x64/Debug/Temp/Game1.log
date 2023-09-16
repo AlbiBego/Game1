@@ -25,11 +25,11 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15525,
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15675,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15688,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15916,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
-C:\Users\User\Desktop\Game1\Source.c(61,119): warning C4191: 'type cast': unsafe conversion from 'FARPROC' to '_NtQueryTimerResolution'
+C:\Users\User\Desktop\Game1\Source.c(83,119): warning C4191: 'type cast': unsafe conversion from 'FARPROC' to '_NtQueryTimerResolution'
           Calling this function through the result pointer may cause your program to fail
-C:\Users\User\Desktop\Game1\Source.c(68,68): warning C4057: 'function': 'PULONG' differs in indirection to slightly different base types from 'LONG *'
-C:\Users\User\Desktop\Game1\Source.c(68,110): warning C4057: 'function': 'PULONG' differs in indirection to slightly different base types from 'LONG *'
-C:\Users\User\Desktop\Game1\Source.c(68,152): warning C4057: 'function': 'PULONG' differs in indirection to slightly different base types from 'LONG *'
-C:\Users\User\Desktop\Game1\Source.c(465,57): warning C4133: 'function': incompatible types - from 'PIXEL32 *' to '__m128i *'
+C:\Users\User\Desktop\Game1\Source.c(94,65): warning C4133: 'function': incompatible types - from 'int64_t *' to 'LPFILETIME'
+C:\Users\User\Desktop\Game1\Source.c(214,72): warning C4133: 'function': incompatible types - from 'int64_t *' to 'LPFILETIME'
+C:\Users\User\Desktop\Game1\Source.c(221,13): warning C4244: '=': conversion from 'int64_t' to 'double', possible loss of data
+C:\Users\User\Desktop\Game1\Source.c(576,57): warning C4133: 'function': incompatible types - from 'PIXEL32 *' to '__m128i *'
   Game1.vcxproj -> C:\Users\User\Desktop\Game1\x64\Debug\Game1.exe
-C:\Users\User\Desktop\Game1\Source.c(30): warning C28251: Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006). 
+C:\Users\User\Desktop\Game1\Source.c(38): warning C28251: Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006). 
