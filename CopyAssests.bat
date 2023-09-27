@@ -1,0 +1,1 @@
+xcopy C:\Users\User\Desktop\Game1\Assets\ C:\Users\User\Desktop\Game1\x64\Debug\ /i
