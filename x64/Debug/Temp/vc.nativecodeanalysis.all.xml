@@ -2,13 +2,26 @@
     <SFA>
       <FILEPATH>C:\Users\User\Desktop\Game1\</FILEPATH>
       <FILENAME>Source.c</FILENAME>
-      <LINE>38</LINE>
+      <LINE>40</LINE>
       <COLUMN>14</COLUMN>
     </SFA>
     <DEFECTCODE>28251</DEFECTCODE>
     <DESCRIPTION>Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006). </DESCRIPTION>
     <FUNCTION>WinMain</FUNCTION>
     <DECORATED>WinMain</DECORATED>
-    <FUNCLINE>38</FUNCLINE>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\User\Desktop\Game1\</FILEPATH>
+      <FILENAME>Source.c</FILENAME>
+      <LINE>872</LINE>
+      <COLUMN>90</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>BlitStringToBuffer</FUNCTION>
+    <DECORATED>BlitStringToBuffer</DECORATED>
+    <FUNCLINE>850</FUNCLINE>
     <PATH></PATH>
   </DEFECT></DEFECTS>

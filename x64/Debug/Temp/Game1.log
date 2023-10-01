@@ -25,14 +25,16 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15525,
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15675,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15688,22): warning C4668: '_WIN32_WINNT_WIN10_RS4' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15916,22): warning C4668: '_WIN32_WINNT_WIN10_RS1' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
-C:\Users\User\Desktop\Game1\Source.c(83,119): warning C4191: 'type cast': unsafe conversion from 'FARPROC' to '_NtQueryTimerResolution'
+C:\Users\User\Desktop\Game1\Source.c(85,119): warning C4191: 'type cast': unsafe conversion from 'FARPROC' to '_NtQueryTimerResolution'
           Calling this function through the result pointer may cause your program to fail
-C:\Users\User\Desktop\Game1\Source.c(94,65): warning C4133: 'function': incompatible types - from 'int64_t *' to 'LPFILETIME'
-C:\Users\User\Desktop\Game1\Source.c(217,72): warning C4133: 'function': incompatible types - from 'int64_t *' to 'LPFILETIME'
-C:\Users\User\Desktop\Game1\Source.c(224,13): warning C4244: '=': conversion from 'int64_t' to 'double', possible loss of data
-C:\Users\User\Desktop\Game1\Source.c(660,77): warning C4242: 'function': conversion from 'int32_t' to 'uint16_t', possible loss of data
-C:\Users\User\Desktop\Game1\Source.c(660,97): warning C4242: 'function': conversion from 'int32_t' to 'uint16_t', possible loss of data
-C:\Users\User\Desktop\Game1\Source.c(714,57): warning C4133: 'function': incompatible types - from 'PIXEL32 *' to '__m128i *'
-C:\Users\User\Desktop\Game1\Source.c(745,13): warning C4189: 'BackgroundPixel': local variable is initialized but not referenced
+C:\Users\User\Desktop\Game1\Source.c(96,65): warning C4133: 'function': incompatible types - from 'int64_t *' to 'LPFILETIME'
+C:\Users\User\Desktop\Game1\Source.c(225,72): warning C4133: 'function': incompatible types - from 'int64_t *' to 'LPFILETIME'
+C:\Users\User\Desktop\Game1\Source.c(232,13): warning C4244: '=': conversion from 'int64_t' to 'double', possible loss of data
+C:\Users\User\Desktop\Game1\Source.c(858,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\Desktop\Game1\Source.c(1536,16): warning C4242: 'function': conversion from 'int32_t' to 'uint16_t', possible loss of data
+C:\Users\User\Desktop\Game1\Source.c(1536,36): warning C4242: 'function': conversion from 'int32_t' to 'uint16_t', possible loss of data
+C:\Users\User\Desktop\Game1\Source.c(1598,57): warning C4133: 'function': incompatible types - from 'PIXEL32 *' to '__m128i *'
+C:\Users\User\Desktop\Game1\Source.c(1629,13): warning C4189: 'BackgroundPixel': local variable is initialized but not referenced
   Game1.vcxproj -> C:\Users\User\Desktop\Game1\x64\Debug\Game1.exe
-C:\Users\User\Desktop\Game1\Source.c(38): warning C28251: Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006). 
+C:\Users\User\Desktop\Game1\Source.c(40): warning C28251: Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006). 
+C:\Users\User\Desktop\Game1\Source.c(872): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).

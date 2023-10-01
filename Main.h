@@ -22,29 +22,39 @@
 
 #define SUITE_2 2
 
-#define FACING_DOWN_0 0
+#define FACING_DOWN_0	0
 
-#define FACING_DOWN_1 1
+#define FACING_DOWN_1	1
 
-#define FACING_DOWN_2 2
+#define FACING_DOWN_2	2
 
-#define FACING_LEFT_0 3
+#define FACING_LEFT_0	3
 
-#define FACING_LEFT_1 4
+#define FACING_LEFT_1	4
 
-#define FACING_LEFT_2 5
+#define FACING_LEFT_2	5
 
-#define FACING_RIGHT_0 6 
+#define FACING_RIGHT_0	6 
 
-#define FACING_RIGHT_1 7
+#define FACING_RIGHT_1	7
 
-#define FACING_RIGHT_2 8 
+#define FACING_RIGHT_2	8 
 
-#define FACING_UPWARD_0 9
+#define FACING_UPWARD_0	9
 
-#define FACING_UPWARD_1 10
+#define FACING_UPWARD_1	10
 
-#define FACING_UPWARD_2 11
+#define FACING_UPWARD_2	11
+
+#define DIRECTION_DOWN	0
+
+#define DIRECTION_LEFT	3
+
+#define DIRECTION_RIGHT	6
+
+#define DIRECTION_UP	9
+
+#define FONT_SHEET_CHARACTERS_PER_ROW 98
 
 #pragma warning (disable: 4820)  // disabled warning about structure padding
 
@@ -122,6 +132,14 @@ typedef struct HERO
 
 	int32_t ScreenPosY;
 
+	uint8_t MovementRemaining;
+
+	uint8_t Direction;
+
+	uint8_t CurrentArmor;
+
+	uint8_t SpriteIndex;
+
 	int32_t HP;
 
 	int32_t Strength;
@@ -142,9 +160,11 @@ void RenderFrameGraphics(void);
 
 DWORD Load32BppBitmapFromFile(_In_ char* FileName, _Inout_ GAMEBITMAP* GameBitmap);
 
-DWORD IniatializeHero(void);
+DWORD InitializeHero(void);
 
 void Blit32BppBitmapToBuffer(_In_ GAMEBITMAP* GameBitmap, _In_ uint16_t x, _In_ uint16_t y);
+
+void BlitStringToBuffer(_In_ char * String, _In_ GAMEBITMAP* GameBitmap, _In_ uint16_t x, _In_ uint16_t y);
 
 #ifdef SIMD
 void ClearScreen(_In_ __m128i* Color);

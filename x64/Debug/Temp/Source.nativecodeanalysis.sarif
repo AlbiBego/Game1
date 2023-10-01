@@ -16,9 +16,9 @@
                   "uri": "file:///C:/Users/User/Desktop/Game1/Source.c"
                 },
                 "region": {
-                  "startLine": 38,
+                  "startLine": 40,
                   "startColumn": 15,
-                  "endLine": 38,
+                  "endLine": 40,
                   "endColumn": 15
                 }
               },
@@ -26,6 +26,34 @@
                 {
                   "fullyQualifiedName": "WinMain",
                   "decoratedName": "WinMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/User/Desktop/Game1/Source.c"
+                },
+                "region": {
+                  "startLine": 872,
+                  "startColumn": 73,
+                  "endLine": 872,
+                  "endColumn": 93
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "BlitStringToBuffer",
+                  "decoratedName": "BlitStringToBuffer",
                   "kind": "function"
                 }
               ]
@@ -56,7 +84,7 @@
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "cf423078f06476da8cf30bb94e1b01af729f771ec3a094c4c89ea0d240385e81"
+            "sha-256": "5447c662938f36e6b76c8789a90e2fad0639fe126b32a1c7800cbb50c302045b"
           }
         },
         {
@@ -64,7 +92,7 @@
             "uri": "file:///c:/users/user/desktop/game1/main.h"
           },
           "hashes": {
-            "sha-256": "7f27ef58eb0850694c6dbfbf9b645b027a5eec454470df20d1a2af492cff13f4"
+            "sha-256": "0e75adf1684724538ce5516c3dea03a02aad4f9b2907a281b30dd058a190bea7"
           }
         }
       ]
